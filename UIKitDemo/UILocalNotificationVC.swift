@@ -33,6 +33,7 @@ class UILocalNotificationViewController:UIViewController{
         myNotificationButton.tag = 1;
         
         
+        
         myNotificationFireButton = UIButton(frame: CGRectMake(0, 0, 200, 80));
         myNotificationFireButton.setTitle("5秒後に通知", forState: UIControlState.Normal);
         myNotificationFireButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal);
